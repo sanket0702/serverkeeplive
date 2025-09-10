@@ -9,7 +9,7 @@ async function callApi() {
     console.log(`API called successfully at ${new Date().toISOString()}`);
     console.log('Response:', response.data);
   } catch (error) {
-    console.error(`Error calling API at ${new Date().toISOString()}:`, error.message);
+    
   }
 }
 
