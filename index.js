@@ -1,7 +1,7 @@
 // index.js
 const axios = require('axios');
 
-const API_URL = 'https://gannapy.onrender.com/docs';
+const API_URL = 'https://gaanaapi-bohy.onrender.com/songs/search/?query=hello&limit=1';
 
 async function callApi() {
   try {
