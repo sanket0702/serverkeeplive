@@ -17,4 +17,4 @@ async function callApi() {
 callApi();
 
 // Set interval to call the API every 30 seconds
-setInterval(callApi, 30 * 1000);
+setInterval(callApi, 60 * 1000);
